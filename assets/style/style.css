@@ -4693,6 +4693,11 @@ color: #828282 !important;
 .container__product_info .wrapper {
   display: grid;
   gap: 0 35px;
+
+}
+.slider_product_general{
+  max-width: calc(100vw - 40px)  !important;
+ 
 }
 
 @media screen and (min-width: 0px) {
@@ -9933,7 +9938,7 @@ margin-left: auto;
 }
 @media screen and (min-width: 0px) {
   .sliders_progress .progress,
-  .slider_last_cont .progress {
+  . .progress {
     padding: 0 10px 0 0 !important;
   }
 }
@@ -11589,7 +11594,7 @@ margin-left: auto;
 }
 .slider.veiwe .box .text_container .content_post,
 .grid-boxed .box .text_container .content_post {
-  max-height: 57px;
+
   margin: 10px 0;
   font-family: "Inter";
   font-style: normal;
